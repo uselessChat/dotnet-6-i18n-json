@@ -20,17 +20,17 @@ namespace I18nJsonLibrary
         public IStringLocalizer Create(Type resourceSource)
         {
             // Normal read
-            //return new I18nJsonStringLocalizer();
+            return new I18nJsonStringLocalizer();
             // Distributed Cache
-            return new I18nJsonStringLocalizerCache(_cache);
+            //return new I18nJsonStringLocalizerCache(_cache);
         }
 
         public IStringLocalizer Create(string baseName, string location)
         {
             // Normal read
-            //return new I18nJsonStringLocalizer();
+            return new I18nJsonStringLocalizer();
             // Distributed Cache
-            return new I18nJsonStringLocalizerCache(_cache);
+            //return new I18nJsonStringLocalizerCache(_cache);
         }
     }
 }
