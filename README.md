@@ -1,4 +1,14 @@
 # I18n localization
+The idea of this playground is to setup an external library which has the `json` files with the translations for different cultures. The directory is `Resources` on project `I18nJsonLibrary`.
+
+To add other file remember to edit the `json` file with the following properties:
+- Build Action: **Embedded resource**
+- Copy to Output Directory: **Copy always**
+
+The library exposes `I18nJsonService#AvailableCultures` to retrieve cultures from current embedded resources.
+
+To change the strategy to retrieve the localized value go to `I18nJsonStringLocalizerFactory` and update accordingly.
+
 ## Initial setup will always read from `.json` file
 - Install packages
   - `Microsoft.Extensions.Localization.Abstractions 6.0.14`
