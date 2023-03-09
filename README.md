@@ -36,4 +36,6 @@
 - Update class `I18nJsonStringLocalizerFactory` and return the instance of `I18nJsonStringLocalizerCache`
 
 Resources
+- [Localization with JSON files in .NET 6](https://cloudcoders.xyz/blog/localization-with-json-files-in-net6/)
+- [Using embedded files in dotnet core](https://josef.codes/using-embedded-files-in-dotnet-core/)
 - [rails i18n es-US](https://github.com/svenfuchs/rails-i18n/blob/master/rails/locale/en-US.yml)
